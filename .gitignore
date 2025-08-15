@@ -2,3 +2,9 @@
 node_modules
 .tmp
 npm-debug.log
+*.ipynb
+*.csv
+__pycache__/
+*.pyc
+*.pkl
+.ipynb_checkpoints/
