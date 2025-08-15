@@ -1,10 +1,22 @@
+# Mac system files
 .DS_Store
-node_modules
-.tmp
-npm-debug.log
-*.ipynb
-*.csv
+
+# Python cache
 __pycache__/
 *.pyc
-*.pkl
+
+# Jupyter notebooks (optional)
+*.ipynb
 .ipynb_checkpoints/
+
+# Node / npm (if any)
+node_modules/
+.tmp
+npm-debug.log
+
+# Ignore dataset
+*.csv
+
+# Keep these (model files are needed for API)
+!xgb_tuned_model.pkl
+!train_columns.pkl
